@@ -1,3 +1,3 @@
 # AngularBootCamp
 
-## TypeScript
+## TypeScript for Angular

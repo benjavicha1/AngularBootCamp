@@ -1,3 +1,5 @@
+"use strict";
+exports.__esModule = true;
 // function log(message) {
 //     console.log(message);
 // }
@@ -70,19 +72,101 @@
 // });
 // Classes 
 // ------------------------------------- //
-var Point = /** @class */ (function () {
-    function Point(x, y) {
-        this.x = x;
-        this.y = y;
-    }
-    Point.prototype.draw = function () {
-        console.log('x: ' + this.x);
-        console.log('y: ' + this.y);
-    };
-    Point.prototype.getDistance = function (another) {
-        // ..
-    };
-    return Point;
-}());
-var point = new Point();
+// class Point {
+//     x: number;
+//     y: number;
+//     constructor(x?: number, y?: number) {
+//         this.x = x;
+//         this.y = y;
+//     }
+//     draw() {
+//         console.log('x: ' + this.x);
+//         console.log('y: ' + this.y);
+//     }
+// }
+// let point = new Point(1, 2);
+// point.x = 8;
+// point.y = 9;
+// point.draw();
+// ------------------------------------- //
+// Access Modifiers 
+// ------------------------------------- //
+// class Point {
+//     private x: number;
+//     private y: number;
+//     constructor(x?: number, y?: number) {
+//         this.x = x;
+//         this.y = y;
+//     }
+//     draw() {
+//         console.log('x: ' + this.x);
+//         console.log('y: ' + this.y);
+//     }
+// }
+// let point = new Point(1, 2);
+// point.draw();
+// ------------------------------------- //
+// Access Modifiers in Constructor Parameters
+// ------------------------------------- //
+// class Point {
+//     constructor(private x?: number, private y?: number) {
+//     }
+//     draw() {
+//         console.log('x: ' + this.x);
+//         console.log('y: ' + this.y);
+//     }
+// }
+// let point = new Point(1, 2);
+// point.draw();
+// ------------------------------------- //
+// Properties
+// ------------------------------------- //
+// class Point {
+//     constructor(private x?: number, private y?: number) {
+//     }
+//     draw() {
+//         console.log('x: ' + this.x);
+//         console.log('y: ' + this.y);
+//     }
+//     getX() {
+//         return this.x;
+//     }
+//     setX(value) {
+//         if (value < 0) 
+//             throw new Error('Value cannot be less than zero.')
+//         this.x = value;
+//     }
+// }
+// let point = new Point(1, 2);
+// console.log('x was: ' + point.getX()); // output: "1"
+// point.setX(3)
+// point.draw();
+// ------------------------------------- //
+// Properties with keyword get and set
+// ------------------------------------- //
+// class Point {
+//     constructor(private _x?: number, private _y?: number) {
+//     }
+//     draw() {
+//         console.log('x: ' + this._x);
+//         console.log('y: ' + this._y);
+//     }
+//     get x() {
+//         return this._x;
+//     } 
+//     set x(value) {
+//         if (value < 0) 
+//             throw new Error('Value cannot be less than zero.')
+//         this._x = value;
+//     }
+// }
+// let point = new Point(1, 2);
+// console.log('x was: ' + point.x); // output: "1"
+// point.x = 10;
+// point.draw();
+// ------------------------------------- //
+// Modules
+// ------------------------------------- //
+var point_1 = require("./point");
+var point = new point_1.Point(1, 2);
 point.draw();

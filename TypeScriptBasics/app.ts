@@ -15,4 +15,4 @@ var inventory = [
     {name: 'cherries', quantity: 5}
 ];
 
-console.log(Object.keys(inventory[0]))
+console.log(Object.keys(inventory[0]));

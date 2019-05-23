@@ -20,5 +20,18 @@ function greeter(name) {
 }
 var greeter2 = function (name) { console.log('Hello, ' + name); };
 var g = greeter2('ben');
-console.log(g); // nothing print out
-// Enums
+console.log(g); // output: undefined
+// Enums 
+var joystickStatus = 2;
+var Directions;
+(function (Directions) {
+    Directions[Directions["Up"] = 0] = "Up";
+    Directions[Directions["Down"] = 1] = "Down";
+    Directions[Directions["Left"] = 2] = "Left";
+    Directions[Directions["Right"] = 3] = "Right";
+})(Directions || (Directions = {}));
+;
+if (joystickStatus === Directions.Left) {
+    // Move the play to left
+    console.log(joystickStatus);
+}

@@ -35,4 +35,11 @@ let g = greeter2('ben');
 console.log(g); // output: undefined
 
 
-// Enums
+// Enums 
+let joystickStatus  = 2;
+enum Directions{ Up, Down, Left, Right };
+
+if (joystickStatus === Directions.Left) {
+    // Move the play to left
+    console.log(joystickStatus);
+}

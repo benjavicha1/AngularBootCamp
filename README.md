@@ -1,7 +1,7 @@
 # AngularBootCamp
 
-## TypeScript for Angular
-[ts-hello](https://github.com/benjavicha1/AngularBootCamp/tree/master/ts-hello)
+## TypeScript Basics
+[TypeScript Basics](https://stackblitz.com/@benjavicha1)
 
 ## Angular apps
 

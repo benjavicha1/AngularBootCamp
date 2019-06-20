@@ -1,7 +1,9 @@
 # AngularBootCamp
 
 ## TypeScript Handbook 
-* Tutorial sources: https://www.tutorialsteacher.com/typescript
+* Tutorial sources:
+  1. https://www.tutorialsteacher.com/typescript
+  2. https://code.visualstudio.com/docs/typescript/typescript-tutorial
 
 * [TypeScript stackblitz](https://stackblitz.com/@benjavicha1)
 

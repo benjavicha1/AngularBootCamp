@@ -2,8 +2,8 @@
 
 ## TypeScript Handbook 
 * Tutorial sources:
-  1. https://www.tutorialsteacher.com/typescript
-  2. https://code.visualstudio.com/docs/typescript/typescript-tutorial
+  1. [TurialsTeacher - TypeScript](https://www.tutorialsteacher.com/typescript)
+  2. [TypeScript tutorial in Visual Studio Code](https://code.visualstudio.com/docs/typescript/typescript-tutorial)
 
 * [TypeScript stackblitz](https://stackblitz.com/@benjavicha1)
 
